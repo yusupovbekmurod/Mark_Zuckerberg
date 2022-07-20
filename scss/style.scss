@@ -1,0 +1,227 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+$index_bg:#FFFFFF;
+$bacolor_bgc:#9EB9D0;
+$clock_color:#DFDEDD;
+
+body {
+   background-color: $bacolor_bgc;
+}
+
+.header {
+
+   width: 500px;
+   height: 549px;
+   background: $index_bg;
+   margin: 110px auto;
+
+   &__container {
+      width: 100%;
+      height: 70px;
+      background-color: #6A96D8;
+      display: flex;
+      justify-content: space-between;
+
+      li {
+         color: $index_bg;
+         font-weight: 600;
+         font-size: 24px;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         margin-top: 20px;
+         margin-left: 40px;
+
+      }
+
+
+      &__close {
+
+         img {
+
+            margin-top: 29px;
+            margin-right: 40px;
+         }
+      }
+
+   }
+
+
+   &__main {
+
+      &__today {
+
+         display: flex;
+         align-items: center;
+
+         &__before {
+            width: 180px;
+            height: 2px;
+            background: $clock_color;
+            margin: auto;
+
+
+
+         }
+
+         &__day {
+            margin: 20px auto;
+            text-align: center;
+            font-family: sans-serif;
+            font-size: 18px;
+            color: $clock_color;
+         }
+
+
+         &__after {
+            width: 180px;
+            height: 2px;
+            background: $clock_color;
+            margin: auto;
+         }
+      }
+
+
+      &__message {
+         &__time {
+            margin-left: 15px;
+            color: #B9B9BA;
+
+
+         }
+
+         &__news {
+            width: 290px;
+            height: 60px;
+            border-radius: 0px 10px 10px 10px;
+            background: #E6EDF6;
+            margin-left: 10px;
+            padding: 10px 10px;
+
+
+            p {
+               font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+               font-size: 14px;
+               font-weight: 600;
+            }
+         }
+
+      }
+
+      &__xabar {
+         float: right;
+
+         &__soat {
+
+            margin-left: 235px;
+            color: #B9B9BA;
+         }
+
+         &__yangi {
+
+            width: 290px;
+            height: 60px;
+            border-radius: 10px 0px 10px 10px;
+            background: #F2F2F2;
+            margin-right: 10px;
+            padding: 10px 10px;
+
+
+            p {
+               font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+               font-size: 14px;
+               font-weight: 600;
+               text-align: start;
+            }
+         }
+      }
+
+
+      &__xat {
+
+         margin-top: 80px;
+
+         &__vaqt {
+            margin-left: 15px;
+            color: #B9B9BA;
+         }
+
+         &__sms {
+            width: 120px;
+            height: 50px;
+            border-radius: 0px 10px 10px 10px;
+            background: #E6EDF6;
+            margin-left: 10px;
+            padding: 10px 10px;
+
+
+            p {
+               font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+               font-size: 14px;
+               font-weight: 600;
+            }
+
+         }
+
+      }
+
+      &__xabarnoma {
+         margin-top: 20px;
+         float: right;
+
+
+
+
+         &__mms {
+            width: 290px;
+            height: 60px;
+            border-radius: 10px 10px 10px 10px;
+            background: #FFC2C1;
+            margin-right: 10px;
+            padding: 10px 10px;
+
+            p {
+               font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+               font-size: 14px;
+               font-weight: 600;
+               text-align: start;
+            }
+         }
+      }
+
+
+   }
+
+   &__liner {
+      width: 460px;
+      height: 1px;
+      background:$clock_color;
+      margin: 115px auto;
+   }
+
+   &__yourmassage {
+      margin-top: -109px;
+      padding: 0px 20px;
+
+      input {
+         width: 84%;
+         height: 50px;
+         background: $index_bg;
+         border: none;
+      }
+
+      button {
+         width: 15%;
+         height: 50px;
+
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font-weight: 600;
+         background: $index_bg;
+         color: #6A96D8;
+         border: none;
+      }
+   }
+
+}
